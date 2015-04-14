@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Geek Monkey Studios</title>
+
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- CSS
+  ================================================== -->
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Prettyphoto -->
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--Line icon font -->
+    <link rel="stylesheet" href="css/line-icons.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <!-- circle counter -->
+    <link rel="stylesheet" href="css/jquery.circliful.css">
+     <!-- Template styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- color style -->
+    <link rel="stylesheet" href="css/presets/preset1.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+
+    <!-- main coding strat -->
+    <header id="header" >
+    	<nav class="navbar navbar-default navbar-fixed-top"  id="tf-menu">
+    	<div class="container">
+    		<div class="row">
+    			<div class="navbar-header ">
+    				<button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse">
+    					<span class="sr-only"></span>
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+    					<span class="icon-bar"></span>
+    				</button>
+    				<a href="#" class="navbar-brand page-scroll"><h5>Geek Monkey Studios</h5></a>
+    			</div> <!-- navabr-header -->
+
+    			<div class="collapse navbar-collapse clearfix" id="bs-example-navbar-collapse-1" role="navigation">
+    				<ul class="nav navbar-nav navbar-right">
+    					<li><a class="page-scroll" href="#home">Home</a></li>
+    				    <li><a class="page-scroll" href="#projects">Projects</a></li>
+    					<li><a class="page-scroll" href="#service">Service</a></li>
+    					<li><a class="page-scroll" href="#feature">Works</a></li>
+    					<li><a class="page-scroll" href="#work">Team</a></li>
+    					<li><a class="page-scroll" href="#blog" >Blog</a></li>
+    					
+    				</ul>
+    			</div>
+    		</div> <!-- row end -->
+    	</div> <!-- container end -->
+    	</nav> <!-- nav end -->
+    </header>
+
+	<!-- main slider start -->
+	<section id="slider" class="slider">
+		<div class="overlay"></div>
+		<div id="main-slide" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators visible-lg visible-md">
+			  	<li data-target="#main-slide" data-slide-to="0" class="active"></li>
+			    <li data-target="#main-slide" data-slide-to="1"></li>
+			    <li data-target="#main-slide" data-slide-to="2"></li>
+			</ol><!--/ Indicators end-->
+			
+			<!-- Carousel inner -->
+			<div class="carousel-inner">
+			    <div class="item active">
+			    	<img class="img-responsive" src="images/slider/bg1.jpg" alt="slider">
+                    <div class="slider-content">
+                    	<div class="col-md-12 text-center">
+                    		<div class="slider-text italic">
+	                        	<h2 class="animated2">Welcome to Geek Monkey Studios </h2>
+	                        	<h3 class="animated3">We are a bunch of individuals,who are enthusiatic about technology</h3>
+	                        	<h5 class="animated6">lets introduce</h5>
+	                        	<a href="#profile" class="page-scroll animated4" ><i class="fa fa-angle-down"></i></a>
+                        	</div>
+                    	</div>
+                    </div>
+			    </div><!--/ Carousel item end -->
+
+			    <div class="item">
+			    	<img class="img-responsive" src="images/slider/bg2.jpg" alt="slider">
+                    <div class="slider-content">
+                        <div class="col-md-12 text-center">
+                            <h2 class="animated4">We are Adopters</h2>
+                            <h3 class="animated5">We Adopt New Technology</h3>	
+                            <h5 class="animated2">lets introduce</h5>
+                            <a href="#profile" class="page-scroll animated6"><i class="fa fa-angle-down"> </i></a>     
+                        </div>
+                    </div>
+			    </div><!--/ Carousel item end -->
+			    
+			    <div class="item">
+			    	<img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
+                    <div class="slider-content">
+                    	<div class="col-md-12">
+                    		<div class="slider-text">
+                    		<h2 class="animated8">Taking Up Challenges Is A Part Of Our Code</h2>
+	                        	<h1 class="animated7">We Love Challenges</h1>
+	                        	
+                        	</div>
+	                        
+	                       <a href="#projects" class="page-scroll animated6"><i class="fa fa-angle-down"> </i></a>	
+                    	</div>
+                    </div>
+			    </div><!--/ Carousel item end -->
+			</div><!-- Carousel inner end-->
+			
+			<!-- Controllers -->
+			<a class="left carousel-control" href="#main-slide" data-slide="prev">
+		    	<span><i class="fa fa-angle-left"></i></span>
+			</a>
+			<a class="right carousel-control" href="#main-slide" data-slide="next">
+		    	<span><i class="fa fa-angle-right"></i></span>
+			</a>
+		</div><!--/ Carousel end --> 
+
+
+	</section>
+	<!-- main slider end -->
+
+	
+
+	
+
+	<section id="projects" class="projects">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="header-desc text-center">
+						<div class="header-content">
+							<h3 class="big-title">Projects</h3>
+							<span>Where the Awesomeness Begins</span>
+						</div>
+						<p>We are Microsoft Bizspark Partner , Intel Software Partner and are ready to collaborate and work with various hardware and software based concerns which will add more value to us </p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft">
+					<div class="projects-single">
+						<div class="year">August 2014 </div>
+						<div class="projects-desc">
+							<h4>Intel RealSense</h4>
+							<h5 class="versity">West Bengal <span>India</span></h5>
+						</div>
+						<div class="grade pull-right"><span>
+															<a href="http://www.codeproject.com/Articles/Abhishek-Nandy" class=""><i class="fa fa-link"></i></a>
+												        </span></div>
+						<p>The main foucus was to use perceptual computing at its best and make something innovative with it.This was one of major projects done by us.</p>
+					</div>
+				</div> <!-- col-md-6 end -->
+				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight">
+					<div class="projects-single">
+						<div class="year">September 2014 </div>
+						<div class="projects-desc">
+							<h4>Windows Store App Dev</h4>
+							<h5 class="versity">West Bengal <span>India</span></h5>
+						</div>
+						<div class="grade pull-right"><span>
+															<a href="http://apps.microsoft.com/windows/en-in/app/spiders-n-cubes/d9173e6f-8bc7-4ca6-9049-8d68c8c07014" class=""><i class="fa fa-link"></i></a>
+												        </span></div>
+						<p>This was a major challenge where we developed 50+ Apps and Pushed them to the store and getting a lot of experience. </p>
+					</div>
+				</div> <!-- col-md-6 end -->
+				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay=".5s">
+					<div class="projects-single">
+						<div class="year">October 2014 </div>
+						<div class="projects-desc">
+							<h4>Dual Screen App Challenge</h4>
+							<h5 class="versity">West Bengal <span>India</span></h5>
+						</div>
+						<div class="grade pull-right"><span>
+															<a href="https://play.google.com/store/apps/developer?id=Geek+Monkey+Studios" class=""><i class="fa fa-link"></i></a>
+												        </span></div>
+						<p>This is where we stepped into Android App Dev and got our hands dirty playing and pushing Dual screen Apps and we have plans for making it for WiDi Devices.</p>
+					</div>
+				</div> <!-- col-md-6 end -->
+				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay=".8s">
+					<div class="projects-single">
+						<div class="year">December 2014 </div>
+						<div class="projects-desc">
+							<h4>Swift Challenge for iOS Sentimental App Dev</h4>
+							<h5 class="versity">West Bengal <span>India</span></h5>
+						</div>
+						<div class="grade pull-right"><span>
+															<a href="https://www.youtube.com/channel/UCD1IBC7l6QNpPNMYjubi0tg/videos" class=""><i class="fa fa-link"></i></a>
+												        </span></div>
+						<p>The adoption of a totally new technology and making the best use of it.</p>
+					</div>
+				</div> <!-- col-md-6 end -->
+			</div> <!-- row end -->
+		</div> <!-- conatiner end -->
+	</section>
+	
+	
+	<!-- Service section Start -->
+
+	<section id="service" class="service">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="header-desc text-center">
+						<div class="header-content">
+							<h3 class="big-title">Services</h3>
+							<span>What We Do</span>
+						</div>
+						<p>The Services Of Geek Monkey Studios Is Diverse & Innovative</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay=".2s">
+					<div class="service-desc">
+						<div class="icon-box color">
+							<i class="icon icon-tablet"></i>
+						</div>
+						<div class="service-content ">
+							<h4>Responsive Web design</h4>
+							<span>Presentable UI & UX for all Devices</span>
+							<p>The solution we provide are responsive and cross platfrom.We work hard to maintain the quality of each solution we give for a challenge or client.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay=".5s">
+					<div class="service-desc">
+						<div class="icon-box color">
+							<i class="icon icon-desktop"></i>
+						</div>
+						<div class="service-content">
+							<h4>Web development</h4>
+							<span>X-Platform Solutions using HTML5,CSS3,JS and Much More</span>
+							<p>At Geek Monkey Studios we give niche solutions for Website and WebApp Development. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay=".8s">
+					<div class="service-desc">
+						<div class="icon-box color">
+							<i class="icon icon-tools"></i>
+						</div>
+						<div class="service-content">
+							<h4>WorkFlow and Designs</h4>
+							<span>Idea Generation and Brainstorming</span>
+							<p>Designs depict the look and feel.We put forward the best possible UX/UI while developing Web based and Stand Alone Solutions for Cross Platform and Cross Domian.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="1.1s">
+					<div class="service-desc">
+						<div class="icon-box color">
+							<i class="icon icon-puzzle"></i>
+						</div>
+						<div class="service-content">
+							<h4> Game Development</h4>
+							<span>X-Platform Gaming Solutions</span>
+							<p>Gaming is one of the emerging markets all round the world and we have adopted and developed games for Android , Windows and Firefox OS. We have been targetting people Construct2,Anarchy,Unity,Unreal,Intel XDK and much more to give cross platform gaming experience.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="1.4s">
+					<div class="service-desc">
+						<div class="icon-box color">
+							<i class="icon icon-megaphone"></i>
+						</div>
+						<div class="service-content">
+							<h4> Outreach</h4>
+							<span>Spreading Word is what makes your work more appreciable</span>
+							<p>This is one of the awesomest part of Geek Monkey Studios. We do outreach events partnering with institutions and we try to deliver our best to make the audience have a feel of what they pay for.We share the resources and make things more easy for people to go back home and work on those.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="1.8s">
+					<div class="service-desc">
+						<div class="icon-box color">
+							<i class="icon icon-basket "></i>
+						</div>
+						<div class="service-content">
+							<h4> Virtual Reality</h4>
+							<span>We also work in 3D spaces</span>
+							<p>We have special attention in this feild and we have a lot of brainstorming which makes us proud for presenting awesome solutions to Apps built with Intel Real Sense and we look forward to experiment with more VR platforms in the coming days.</p>
+						</div>
+					</div>
+				</div>
+			</div> <!-- row end -->
+		</div> <!-- container end -->
+	</section>
+	<!-- Service section End -->
+	
+	<!-- Work process start -->
+
+	<section id="process" class="process parallax2">
+		<div class="parallax-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sub-heading text-center">
+						<h4 >Working Pathways</h4>
+						<div class="line"></div>
+						<p>The flow of our work</p>
+					</div>
+				</div>
+			</div>
+			<div class="process-desc ">
+				<div class="row">
+					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay=".3s">
+						<div class="single-process text-center">
+							<i class="fa fa-lightbulb-o big "></i>
+							<h4>1. First we make a clear concept</h4> 
+							<p>Over the year we have lots of experience in our field. We chalk out different ways of solving a problem and hence we make the base of problem solving ablilities clear as water.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay=".6s">
+						<div class="single-process text-center">
+							<i class="fa fa-pagelines big "></i>
+							<h4>2. Sketching the design </h4> 
+							<p>The team sits with the design and UI , making the solution innovative , responsive and to the point. </p>
+						</div>
+					</div>
+							
+					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay=".9s">
+						<div class="single-process text-center">
+							<i class="fa fa-code big"></i>
+							<h4>4.Hacking on the code</h4> 
+							<p>We hack on HTML5,CSS3 and JS on the web. On the App Dev front we work with C# , C++ and many more. On the Data Analysis front we will soon be working and giving Big Data soultions with R.</p>
+						 </div>
+					</div>
+
+					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="1.1s">
+						<div class="single-process text-center">
+							<i class="fa fa-support big"></i>
+							<h4>5.Test for code validation </h4> 
+							<p>Before the solutions are given to the clients , we test the code validation using Tools to make sure that the code runs perfects without throwing up any sort of error.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="1.3s">
+						<div class="single-process text-center">
+							<i class="fa fa-cog big"></i>
+							<h4>6. Crossbrowser compabilty</h4> 
+							<p>Code Once ; Deploy Anywhere. That's the motto we follow when we build solutions.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="1.5s">
+						<div class="single-process text-center">
+							<i class="fa fa-rocket big"></i>
+						    <h4>7. Final Launch for deliver</h4> 
+							<p>Support & Maintance go hand in hand when it comes to launch on the new products.</p>
+						</div>
+					</div>
+				</div> <!-- process-desc end -->
+			</div><!-- row end --> 
+		</div> <!-- container end -->
+	</section>
+	<!-- Work process end -->
+	
+	
+	<!-- features quality start -->
+	<section id="feature">
+			<div role="tabpanel"  id="feature-tab">
+				<ul class="nav nav-tabs text-center" role="tablist">
+					<li class="active" role="presentation">
+						<a href="#top" data-toggle="tab" role="tab">
+							<div class="feature-icon clear">
+								<i class="fa fa-heart-o"></i>
+							</div>
+							top features
+						</a>
+					</li>
+					<li role="presentation">
+						<a href="#most" data-toggle="tab" role="tab">
+						<div class="feature-icon clear">
+							<i class="fa fa-briefcase"></i>
+						</div>
+							Experience
+						</a>
+					</li>
+				</ul> <!-- nav tabs end -->
+			<div class="container">	
+				<!-- tab contents start -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="top" role="tabpanel">
+						<div class="row">
+							<div class="col-md-6 wow fadeInLeft" data-wow-delay=".4s">
+								<div class="feature-img">
+									<img src="images/mac.jpg" alt="" class="img-responsive">
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="main-fetaure">
+									<div class="feature-desc wow fadeInRight" data-wow-delay=".2s">
+										<div class="feature-icon"><i class="icon icon-wallet"></i></div>
+										<div class="feature-content">
+											<h4>Realaible and secure platform</h4>
+											<p>The platform in which we build the code is restrictive and we make sure that the code is mostly fexible and has least number of bugs.</p>
+										</div>
+									</div>
+									<div class="feature-desc wow fadeInRight" data-wow-delay=".4s">
+										<div class="feature-icon"><i class="icon icon-flag"></i></div>
+										<div class="feature-content">
+											<h4> Fresh and Clean</h4>
+											<p>The code is made in such manner that the clean build is goin to have a new flavour everytime.</p>
+										</div>
+									</div>
+									<div class="feature-desc wow fadeInRight" data-wow-delay=".8s">
+										<div class="feature-icon"><i class="icon icon-adjustments "></i></div>
+										<div class="feature-content">
+											<h4> Easy to customize</h4>
+											<p>Addition of more feature in a short amount of time.</p>
+										</div>
+									</div>
+									<div class="feature-desc wow fadeInRight" data-wow-delay="1.1s">
+										<div class="feature-icon"><i class="icon icon-hourglass"></i></div>
+										<div class="feature-content">
+											<h4> Rapid Customer support </h4>
+											<p>Geek Monkey Studios provide a mission critical support to its clients and projets.</p>
+										</div>
+									</div>
+								</div> <!-- main feature end -->
+							</div> <!-- col-md-8 end -->
+						</div> <!-- row end -->
+					</div> <!-- 1st tab content end -->
+
+					<div class="tab-pane fade in" id="most" role="tabpanel">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<h4 class="sub-title">About us</h4>
+								<h5>Know Us</h5>
+								<p class="m20">
+									Being partnered with Microsoft and Intel is a previlage .We try to immerese ourselves in multiple dimensions of development and innovations.We will soon be coming up projects on IoT and much more which will be not only tragetted to current trends but will also address the upcoming trends in the market which is soon to begin.
+								</p>
+								<blockquote class="m40">
+									Let's collaborate and make it a better than ever.
+								</blockquote>
+							</div> <!-- 1st col-md-6 end -->
+
+							<div class="col-md-6 col-sm-6">
+								<h4 class="sub-title">Experience</h4>
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default panel-exp">
+									    <div class="panel-heading " role="tab" id="headingOne">
+									      <h4 class="panel-title">
+									        <a  data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									          Android App Development
+									        </a>
+									      </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									      <div class="panel-body">
+									       <h4> Dual Screen Apps </h4>
+									       <h5>Soon to support WiDi devices</h5>
+									        <p>The main idea was to create apps which will have the phone as a device to control the app display on another external device. </p>
+									      </div>
+									    </div>
+									</div>
+
+										<div class="panel panel-default panel-exp">
+										    <div class="panel-heading" role="tab" id="headingtko">
+										      <h4 class="panel-title">
+										        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+										          Intel XDK and Realsense
+										        </a>
+										      </h4>
+										    </div>
+										    <div id="collapsetwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+										      <div class="panel-body">
+										      	<h4> X platform App Dev</h4>
+									       		<h5>Apps now can created with XDK can be pushed to Windows Store</h5>
+										          <p>The main idea was to build cross platform apps with C++ and get the most out of it. XDK is very easy to work with as well incase of Version Control since it can seamlessly sync with Github.</p>
+										      </div>
+										    </div>
+										</div>
+
+										<div class="panel panel-default panel-exp">
+										    <div class="panel-heading" role="tab" id="heading3">
+										      <h4 class="panel-title">
+										        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+										          Swift & iOS
+										        </a>
+										      </h4>
+										    </div>
+										    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+										      <div class="panel-body">
+										      	<h4> Challenges</h4>
+									       		<h5>Geek Monkey Studio implemented Swift and made apps with it.</h5>
+										          <p>Geek Monkey Studios implemented Swift and generated app ideas for Apple watch and much more</p>
+										      </div>
+										    </div>
+										</div>
+									</div>  <!-- paenl group end -->
+							</div> <!-- 2nd  col-md-6 end -->
+						</div><!-- 2nd row end -->
+					</div> 
+				</div> <!-- tab content end -->
+			</div> <!-- tabpanel end -->
+		</div> <!-- conatainer end -->
+	</section>
+	
+
+		<section id="work">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="header-desc text-center">
+							<div class="header-content">
+								<h3 class="big-title">Team</h3>
+								<span>Meet the people </span>
+							</div>
+							<p>Lets know more about them individually! </p>
+						</div>
+					</div>
+				</div>
+
+				<div class='row'>
+				    <div class='col-md-12'>
+				      	<div class="carousel slide" id="portfolio-carousel">
+					        <div class="carousel-inner">
+					          	<div class="item  active">
+					            	<div class="row">
+										<div class="col-xs-12 col-sm-6 col-md-3">   
+											<div class="thumbnail">
+											    <div class="caption">
+											    	<div class="caption-content">
+												    	<span>
+															
+												        	<a href="https://www.facebook.com/abhishek.nandy.7" ><i class="fa fa-link"></i></a> 	
+												        </span>
+												        <h3>Abhishek Nandy</h3>
+												        <p>Intel Blackbelt.Microsoft MVP.Realsense Expert.</p>
+											    	</div>
+											    </div>
+											    <img src="images/portfolio/abhi.jpg" alt="Abhishek">
+											</div>
+										</div>          
+										<div class="col-xs-12 col-sm-6 col-md-3">   
+											<div class="thumbnail">
+											    <div class="caption">
+											    	<div class="caption-content">
+												    	<span>
+															
+												        	<a href="https://www.facebook.com/mohitbhansali" class=""><i class="fa fa-link"></i></a>
+												        </span>
+												        <h3>Mohit Bhansali</h3>
+												        <p>Android Expert.MCSD Windows Store App Dev.iOS Expert.</p>
+											    	</div>
+											    </div>
+											    <img src="images/portfolio/mohit.jpg" alt="Mohit">
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-3">   
+											<div class="thumbnail">
+											    <div class="caption">
+											    	<div class="caption-content">
+												    	<span>
+															
+												        	<a href="https://www.facebook.com/sumantro.rijndael" class=""><i class="fa fa-link"></i></a>
+												        </span>
+												        <h3>Sumantro Mukherjee</h3>
+												        <p>Microsoft Specialist.Mozillian.Web App Dev.</p>
+											    	</div>
+											    </div>
+											    <img src="images/portfolio/sm.jpg" alt="Sumantro">
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-3">   
+											<div class="thumbnail">
+											    <div class="caption">
+											    	<div class="caption-content">
+												    	<span>
+															              
+															</a>
+												        	<a href="https://www.facebook.com/debashree.chanda" class=""><i class="fa fa-link"></i></a>
+												        </span>
+												        <h3>Debashree Chanda</h3>
+												        <p>Worklight Expert.</p>
+											    	</div>
+											    </div>
+											    <img src="images/portfolio/deba.jpg" alt="debasree">
+											</div>
+										</div>
+					            	</div>
+					          	</div><!--/ Item active end -->
+
+								<div class="item">
+						            <div class="row">
+										<div class="col-xs-12 col-sm-6 col-md-3">   
+											<div class="thumbnail">
+											    <div class="caption">
+											    	<div class="caption-content">
+												    	<span>
+															              
+															</a>
+												        	<a href="https://www.facebook.com/profile.php?id=100004166209451" class=""><i class="fa fa-link"></i></a>
+												        </span>
+												        <h3>Monomoy Das</h3>
+												        <p>Creative Designer.Modelling Expert.</p>
+											    	</div>
+											    </div>
+											    <img src="images/portfolio/mac.jpg" alt="Monomoy">
+											</div>
+										</div>          
+										<div class="col-xs-12 col-sm-6 col-md-3">   
+											<div class="thumbnail">
+											    <div class="caption">
+											    	<div class="caption-content">
+												    	<span>
+															              
+															
+												        	<a href="https://www.facebook.com/profile.php?id=100006355566820" class=""><i class="fa fa-link"></i></a>
+												        </span>
+												        <h3>Pooja Baraskar</h3>
+												        <p>Windows Game Dev.C# Expert.IoT.</p>
+											    	</div>
+											    </div>
+											    <img src="images/portfolio/no.jpg" alt="Pooja">
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-3">   
+											<div class="thumbnail">
+											    <div class="caption">
+											    	<div class="caption-content">
+												    	<span>
+															
+												        	<a href="https://www.facebook.com/sourav.lahoti" class=""><i class="fa fa-link"></i></a>
+												        </span>
+												        <h3>Sourav Lahoti</h3>
+												        <p>Windows and Blackberry App Dev.</p>
+											    	</div>
+											    </div>
+											    <img src="images/portfolio/throwback.jpg" alt="Sourav">
+											</div>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-3">   
+											<div class="thumbnail">
+											    <div class="caption">
+											    	<div class="caption-content">
+												    	<span>
+															
+												        	<a href="https://www.facebook.com/kishlayniit" class=""><i class="fa fa-link"></i></a>
+												        </span>
+												        <h3>Kishlay Sharma</h3>
+												        <p>Axure RP</p>
+											    	</div>
+											    </div>
+											    <img src="images/portfolio/kish.jpg" alt="Kishlay">
+											</div>
+										</div>
+						            </div>
+					          	</div><!--/ Item end -->
+					        </div><!-- Carousel inner end -->
+						</div>	<!-- col-md-9 end -->
+
+						<div class="barrier-carousel-controller portfolio-control">
+						   <a data-slide="prev" href="#portfolio-carousel" class="left"><i class="fa fa-chevron-left"></i></a>
+						   <a data-slide="next" href="#portfolio-carousel" class="right"><i class="fa fa-chevron-right"></i></a>
+					    </div><!-- Controller end -->
+
+				      </div><!-- Carousel end -->                          
+				    </div><!-- Main Col end -->
+		  		</div><!--/  row end -->
+			</div><!--/ Main row end -->
+		</div><!--/ Container end -->
+	</section>
+	<!-- section portfolio end-->
+
+	<!-- Skill progress Start -->
+	<section id="skill-bar" class="parallax5" >
+	<div class="color-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="sub-heading text-center">
+						<h2>we have great experience in...</h2>
+                        <p>Measure our experiences which directly how strog we are as a team  </p>
+					</div>
+				</div>
+			</div>
+
+            <div class="row">
+            	<div class="col-md-4">
+                    	<div class=" skill " >
+                            <div class="circle " data-dimension="225" data-text="65%"  data-width="5" data-fontsize="38" data-percent="65" data-fgcolor="#61a9dc" data-bgcolor="#fff"  >
+                            </div>
+                            <div class="skill-content text-center">
+	                            <h2 class="skill-name">IoT</h2>
+	                            <p>Internet of Things is one of the growing areas where we are giving our best</p>
+	                        </div>                        
+                        </div>                        
+                    </div>
+                    <div class="col-md-4">
+                    	<div class="skill " >
+                            <div class="circle1 " data-dimension="225" data-text="95%"  data-width="5" data-fontsize="38" data-percent="85" data-fgcolor="#61a9dc" data-bgcolor="#fff"  >
+                            </div>
+                            <div class="skill-content text-center">
+	                            <h2 class="skill-name">html5 &amp; CSS3</h2>
+	                            <p>This is mostly to give X platform solution and we LOVE it the most.</p>
+	                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                    	<div class="skill " >
+                            <div class="circle1 " data-dimension="225" data-text="90%"  data-width="5" data-fontsize="38" data-percent="85" data-fgcolor="#61a9dc" data-bgcolor="#fff"  >
+                            </div>
+                            <div class="skill-content text-center">
+	                            <h2 class="skill-name">C# </h2>
+	                            <p>Developing Apps is fun and we have an excellent grip on this</p>
+	                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                    	<div class="skill " >
+                            <div class="circle1 " data-dimension="225" data-text="90%"  data-width="5" data-fontsize="38" data-percent="85" data-fgcolor="#61a9dc" data-bgcolor="#fff"  >
+                            </div>
+                            <div class="skill-content text-center">
+	                            <h2 class="skill-name">Intel RealSense</h2>
+	                            <p>Gesture Recogition,Speech Recognition everything on a 3D plane.</p>
+	                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                    	<div class="skill " >
+                            <div class="circle1 " data-dimension="225" data-text="65%"  data-width="5" data-fontsize="38" data-percent="85" data-fgcolor="#61a9dc" data-bgcolor="#fff"  >
+                            </div>
+                            <div class="skill-content text-center">
+	                            <h2 class="skill-name">Asp.net</h2>
+	                            <p>Website and Web service Development.</p>
+	                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                    	<div class="skill " >
+                            <div class="circle1 " data-dimension="225" data-text="80%"  data-width="5" data-fontsize="38" data-percent="85" data-fgcolor="#61a9dc" data-bgcolor="#fff"  >
+                            </div>
+                            <div class="skill-content text-center">
+	                            <h2 class="skill-name">X platform Gaming</h2>
+	                            <p>We Love experimenting with diffrent game engines and we want to build a strong reach in the gaming industry.</p>
+	                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                    	<div class="skill " >
+                            <div class="circle1 " data-dimension="225" data-text="75%"  data-width="5" data-fontsize="38" data-percent="85" data-fgcolor="#61a9dc" data-bgcolor="#fff"  >
+                            </div>
+                            <div class="skill-content text-center">
+	                            <h2 class="skill-name">Swift &amp; iOS</h2>
+	                            <p>Another Feild where the innovation has taken us to a whole new level</p>
+	                        </div>
+                        </div>
+
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    	<div class="skill ">
+                            <div class="circle2 " data-dimension="225" data-text="75%"  data-width="5" data-fontsize="38" data-percent="75" data-fgcolor="#61a9dc" data-bgcolor="#fff"  >
+                            </div>
+							<div class="skill-content text-center">
+	                            <h2 class="skill-name">Javascript</h2>
+	                            <p>Consectetur adipiscing elit in sit amet aliquet odio eget, nec vehicula eget mauris.</p>
+	                        </div>
+                        </div>
+                    </div>  
+            </div> <!-- row end -->	
+		</div> <!-- container end -->
+	</section>
+	<!-- Skill progress End -->
+
+	<!-- section pricing start -->
+
+	
+	>
+	
+	<!-- section blog start -->
+	<section id="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="header-desc text-center">
+						<div class="header-content">
+							<h3 class="big-title">Blog</h3>
+							<span>The geeky rants</span>
+						</div>
+						<p>Since we keep on experimenting with so many stuffs , we have a list of bloggers who write their views and works . Its great to have these shared . </p>
+					</div>
+				</div>
+			</div> <!-- 1st row end -->
+
+			<div class="row">
+				<div class="blog-single">
+					<div class="col-md-6 wow fadeInUp" data-wow-delay=".2s">
+						<div class="blog-desc">
+							<img src="images/blog/blog1.jpg" alt="" class="img-responsive">
+							<div class="blog-overlay">
+								<a class="blink" href="http://poojabaraskar.com"><i class="fa fa-link"></i></a>
+								<a class="bsearch" href="http://www.codeproject.com/Members/PoojaBaraskar"><i class="fa fa-search"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="blog-content">
+							<h4 class="blog-title">C#,IoT,Azure</h4>
+							<div class="blog-meta">
+					
+							</div>
+							<p>Pooja is one of the persons who blogs whole heartedly about her works on C# App Dev for Windows Phone and Store,IoT and much more.</p>
+							<div class="blog-social m20">
+								
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div><!-- row end -->
+			<div class="m40"></div>
+			<div class="row">
+				<div class="blog-single">
+					<div class="col-md-6 wow fadeInUp" data-wow-delay=".2s">
+						<div class="blog-desc">
+							<img src="images/blog/blog2.jpg" alt="" class="img-responsive">
+							<div class="blog-overlay">
+								<a class="blink" href="https://www.youtube.com/channel/UCD1IBC7l6QNpPNMYjubi0tg/videos"><i class="fa fa-link"></i></a>
+								<a class="bsearch" href="https://www.codeproject.com/Members/Abhishek-Nandy"><i class="fa fa-search"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="blog-content">
+							<h4 class="blog-title">Azure,RealSense and Much More</h4>
+							<div class="blog-meta">
+								
+							</div>
+							<p>Abhishek is one of the persons who Loves innovations and his shares his work on CodeProject as well as on Videos on Youtube Channel</p>
+							<div class="blog-social m20">
+								
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div><!-- row end -->
+		</div> <!-- container end -->
+	</section>
+	<!-- section blog end -->
+
+	<!-- section contact start -->
+
+	
+
+	<section class="no-padding">
+	
+		<div class="container">
+			<div class="contact-info-inner wow fadeInUp">
+    			<h3>Contact Info</h3>
+	    		<div><i class="fa fa-map-marker pull-left"></i>  
+	    			<p><strong>Address</strong>466 S.N. Roy Road,Kolkata 700038</p>
+	    		</div>
+	    		<div><i class="fa fa-phone pull-left"></i>  
+	    			<p><strong>Phone</strong>+91 9874456183</p>
+	    		</div>
+	    		<div><i class="fa fa-envelope-o pull-left"></i>  
+	    			<p><strong>Email</strong>saggy.zone@gmail.com</p>
+	    		</div>
+	    		<div><i class="fa fa-compass pull-left"></i>  
+	    			<p><strong>Office Hours</strong>Mon - Friday, 9:00 - 5:00</p>
+	    		</div>
+
+			</div>
+	    </div>
+		<div ><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.5209103119373!2d88.29113900000002!3d22.484631000000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027a4ebeb170a9%3A0xc6d96454b9db5807!2sSwaranika+Housing!5e0!3m2!1sen!2sin!4v1427562278319" width="400" z-index: 1;></iframe></div>
+	</section><!--/ Map end here -->
+
+	<!-- footer start -->
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="footer-desc text-center">
+						<div class="logo wow fadeInDown">Geek Monkey Studios</div>
+						<ul class="socail-list list-inline">
+							<li><a href="#"><i class="fa fa-facebook wow fadeInLeft" data-wow-delay=".2s"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter wow fadeInLeft" data-wow-delay=".4s"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus wow fadeInLeft" data-wow-delay=".6s"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin wow fadeInLeft" data-wow-delay=".8s"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble wow fadeInLeft" data-wow-delay="1s"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss wow fadeInLeft" data-wow-delay="1.1s"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div> <!-- row end -->
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="copyright-info m20">
+         			 &copy; Developed. <span>Designed &amp; developed by- <a href="#" target="_blank">Sumantro</a></span>
+        			</div>
+				</div>
+			</div><!--/ Row end -->
+
+			 <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
+			 	<a href="#slider" class="page-scroll" >
+					<button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
+				</a>
+			</div>
+
+		</div> <!-- container end -->
+	</footer>
+	<!-- footer end -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- initialize jQuery Library -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- SmoothScroll -->
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <!-- prettyphoto -->
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <!-- Eeasing -->
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <!-- Counter -->
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+    <!-- Waypoints -->
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    <!-- Circleful -->
+    <script type="text/javascript" src="js/jquery.circliful.min.js"></script>
+    <!-- Style switcher -->
+    <script type="text/javascript" src="js/style-switcher.js"></script>
+    <!-- Google Map API Key Source -->
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <!-- Google Map  Source -->
+    <script type="text/javascript" src="js/gmaps.js"></script>
+	<!-- Wow Animation -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <!-- Custom js source -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    
+	<script>
+		$('.circle').circliful();
+		$('.circle1').circliful();
+		$('.circle2').circliful();
+	</script>
+  </body>
+</html>
